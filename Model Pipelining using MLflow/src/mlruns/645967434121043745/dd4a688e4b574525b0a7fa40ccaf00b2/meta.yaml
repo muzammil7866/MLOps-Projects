@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/muzam/Desktop/mlops-assignment-1/src/mlruns/645967434121043745/dd4a688e4b574525b0a7fa40ccaf00b2/artifacts
+end_time: 1758038464163
+entry_point_name: ''
+experiment_id: '645967434121043745'
+lifecycle_stage: active
+run_id: dd4a688e4b574525b0a7fa40ccaf00b2
+run_name: svc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758038458273
+status: 3
+tags: []
+user_id: muzam

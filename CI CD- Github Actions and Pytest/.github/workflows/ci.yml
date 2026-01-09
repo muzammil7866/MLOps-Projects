@@ -1,0 +1,41 @@
+name: MLOps CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  mlops-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the repository code
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9"
+
+    # Step 3: Install Dependencies
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Step 4: Run Linting (Code Quality)
+    - name: Run Linting
+      run: |
+        flake8 src tests --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 src tests --count --exit-zero --max-complexity=10 --statistics
+
+    # Step 5: Run Unit Tests
+    # CHANGE IS HERE: Use 'python -m pytest' instead of just 'pytest'
+    - name: Run Tests
+      run: |
+        python -m pytest tests/
+
+    # Step 6: Verify Training Pipeline Runs
+    - name: Verify Training Execution
+      run: |
+        python src/train.py

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/muzam/Desktop/mlops-assignment-1/src/mlruns/645967434121043745/models/m-da58a0c49e694888ad1fd63f2cdb5cc3/artifacts
+creation_timestamp: 1758116840201
+experiment_id: '645967434121043745'
+last_updated_timestamp: 1758116844789
+model_id: m-da58a0c49e694888ad1fd63f2cdb5cc3
+model_type: null
+name: model
+source_run_id: 5badec5e830e49ccadde26fd126e00a6
+status: 2
+status_message: null

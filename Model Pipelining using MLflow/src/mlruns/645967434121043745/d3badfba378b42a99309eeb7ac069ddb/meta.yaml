@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/muzam/Desktop/mlops-assignment-1/src/mlruns/645967434121043745/d3badfba378b42a99309eeb7ac069ddb/artifacts
+end_time: 1758038526833
+entry_point_name: ''
+experiment_id: '645967434121043745'
+lifecycle_stage: active
+run_id: d3badfba378b42a99309eeb7ac069ddb
+run_name: logistic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758038519803
+status: 3
+tags: []
+user_id: muzam
