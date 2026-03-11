@@ -1,6 +1,7 @@
 # MLOps Projects
 
-This repository is a professional collection of MLOps-focused projects built to bridge machine learning experimentation and production-grade delivery.
+This repository is a professional collection of MLOps-focused projects built to bridge machine learning experimentation and production-grade delivery. Developed alongside in-depth BSAI coursework, these projects demonstrate practical expertise in automation, CI/CD, and deploying scalable AI solutions.
+
 
 ## Table of Contents
 
@@ -15,7 +16,6 @@ This repository is a professional collection of MLOps-focused projects built to 
 ## Overview
 
 The repository emphasizes practical MLOps workflows including automation, orchestration, testing, model serving, and CI/CD integration.
-It also includes selected implementations connected to BS AI coursework and applied ML engineering practice.
 
 ## Business Goals
 
