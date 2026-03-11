@@ -15,6 +15,7 @@ This repository is a professional collection of MLOps-focused projects built to 
 ## Overview
 
 The repository emphasizes practical MLOps workflows including automation, orchestration, testing, model serving, and CI/CD integration.
+It also includes selected implementations connected to BS AI coursework and applied ML engineering practice.
 
 ## Business Goals
 
