@@ -277,7 +277,10 @@ base_log_folder = /workspace/logs
 AIRFLOW_HOME=/workspace
 AIRFLOW__CORE__DAGS_FOLDER=/workspace/dags
 AIRFLOW__CORE__LOAD_EXAMPLES=False
+AIRFLOW__CORE__FERNET_KEY=<set-in-local-.env>
 ```
+
+Security note: never commit a real `AIRFLOW__CORE__FERNET_KEY` to git. Keep it only in your local `.env` (already ignored by `.gitignore`) or in your secret manager/CI secrets.
 
 ## Features
 
