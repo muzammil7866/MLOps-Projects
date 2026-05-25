@@ -1,0 +1,8 @@
+2026-05-25 15:30:41,391 INFO Model ran at 2026-05-25T15:30:40.015000 with prediction [1.]
+2026-05-25 15:30:41,402 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-25 15:30:41,406 INFO Added job "run_model" to job store "default"
+2026-05-25 15:30:41,406 INFO Scheduler started
+2026-05-25 15:30:44,415 INFO Running job "run_model (trigger: interval[0:00:03], next run at: 2026-05-25 15:30:44 PKT)" (scheduled at 2026-05-25 15:30:44.402053+05:00)
+2026-05-25 15:30:44,417 INFO Model ran at 2026-05-25T15:30:44.415511 with prediction [1.]
+2026-05-25 15:30:44,419 INFO Job "run_model (trigger: interval[0:00:03], next run at: 2026-05-25 15:30:47 PKT)" executed successfully
+2026-05-25 15:30:47,409 INFO Running job "run_model (trigger: interval[0:00:03], next run at: 2026-05-25 15:30:50 PKT)" (scheduled at 2026-05-25 15:30:47.402053+05:00)
